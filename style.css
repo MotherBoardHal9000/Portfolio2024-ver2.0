@@ -176,7 +176,7 @@ canvas {
 /*sectionII*/
 .sectionII {
   width: 100vw;
-  height: 700px;
+  height: 769px;
   padding: 50px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -185,43 +185,28 @@ canvas {
 }
 .sectionIIContents {
   width: 1200px;
-  min-height: 500px;
+  height: 100%;
   position: absolute;
   left: 50%;
   bottom: 0px;
   transform: translateX(-50%);
 }
 
-.waterColorI {
-  width: 550px;
-  height: 400px;
+.profileBox{
+  width: 600px;
+  height: 550px;
+  background-color: #ffffff;
+  margin-top:102px;
   border-radius: 25px;
-  background-position: top;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  right: 0px;
-  bottom: 0px;
-  border: 1px solid red;
-}
-
-.sectionIIbox {
-  width: 750px;
-  height: 200px;
-  border-radius: 25px;
-  box-shadow: 10px 10px 20px 0px rgb(236, 236, 236);
   float: left;
-  margin: 20px;
-  padding-top: 30px;
-  padding-left: 40px;
 }
 
-.sectionIIbox i {
-  margin-bottom: 30px;
-}
 
-.sectionIIbox #Services {
-  font-size: 40px;
+.profileBox img {
+  width: 520px;
+  height: 520px;
+  margin-top: 30px;
+  margin-left: 40px;
 }
 
 
