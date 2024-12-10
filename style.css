@@ -104,10 +104,10 @@ canvas {
   font-size: 8rem;
   font-weight: 800;
   position: absolute;
+  left: 50px;
   z-index: 10;
   line-height: 140px;
   bottom: 6.5%;
-
 }
 
 
@@ -177,19 +177,14 @@ canvas {
 .sectionII {
   width: 100vw;
   height: 769px;
-  padding: 50px;
-  box-sizing: border-box;
   margin: 0 auto;
   position: relative;
   background-color: #dee1eb;
 }
 .sectionIIContents {
   width: 1200px;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translateX(-50%);
+  height: 769px;
+  margin: 0 auto;
 }
 
 .profileBox{
@@ -199,7 +194,21 @@ canvas {
   margin-top:102px;
   border-radius: 25px;
   float: left;
+  position: absolute;
 }
+
+
+
+#square{
+  width: 60px;
+  height: 60px;
+position: absolute;
+right: 520px;
+margin-top: 97px;
+  
+}
+
+
 
 
 .profileBox img {
@@ -208,6 +217,16 @@ canvas {
   margin-top: 30px;
   margin-left: 40px;
 }
+
+
+.aboutMe{
+  width: 500px;
+  height: 550px;
+  margin-top: 102px;
+  border-top: 6px solid black;
+  float: right;
+}
+
 
 
 .sectionIII{

@@ -78,15 +78,14 @@ canvas {
 
 }
 
-
 .sectionIContents h2{
   font-size: 8rem;
   font-weight: 800;
   position: absolute;
+  left: 50px;
   z-index: 10;
   line-height: 140px;
   bottom: 6.5%;
-
 }
 
 
@@ -156,8 +155,6 @@ canvas {
 .sectionII {
   width: 100vw;
   height: 769px;
-  padding: 50px;
-  box-sizing: border-box;
   position: relative;
   background-color: #dee1eb;
 }
@@ -165,6 +162,7 @@ canvas {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 
@@ -183,7 +181,18 @@ canvas {
   height: 520px;
   margin-top: 30px;
   margin-left: 40px;
+  position: absolute;
+  float: left;
 }
+
+
+.aboutMe{
+  width: 500px;
+  height: 99%;
+  float: right;
+  border: 1px solid red;
+}
+
 
 
 
