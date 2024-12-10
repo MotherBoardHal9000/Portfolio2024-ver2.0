@@ -1,5 +1,3 @@
-
-
 * {
   outline: 0;
   margin: 0;
@@ -11,8 +9,7 @@
   font-style: normal;
   scroll-behavior: smooth;
   position: relative;
-  
- 
+  transition: all 0.7s;
 }
 
 a {
@@ -22,6 +19,7 @@ a {
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+
 }
 
 canvas {
@@ -29,13 +27,14 @@ canvas {
   height: 700px;
   position: absolute;
   border-radius: 25px;
-  top: 100px;
+  top: 170px;
   left: 50%;
   transform: translateX(-50%);
   background-repeat: no-repeat;
   background-size: contain;
   box-shadow: 10px 10px 20px 0px rgb(236, 236, 236);
   transition: all 1s;
+  z-index: 2;
 }
 
 
@@ -83,15 +82,20 @@ canvas {
 /*sectionI*/
 .sectionI {
   width: 100vw;
-  height: 700px;
+  height: 100vh;
   position: relative;
-  
+  background-image: url(./img/section01Background.svg);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+
 }
 
 .sectionIContents {
   width: 1200px;
-  height: 700px;
+  height: 100%;
   margin: 0 auto;
+  transition: all 0.8s;
 }
 
 
@@ -101,7 +105,7 @@ canvas {
   position: absolute;
   z-index: 10;
   line-height: 140px;
-  bottom: -455px;
+  bottom: 225px;
 
 }
 
@@ -112,7 +116,7 @@ canvas {
   left: 450px;
   width: 250px;
   height: 250px;
-  z-index: -2;
+  z-index: 1;
 }
 
 #aBstract{
@@ -125,13 +129,25 @@ canvas {
 }
 
 
+
+#popIt{
+  position: absolute;
+  right: -15%;
+  top: -5%;
+  transform: translateX(-15%), translateY(-5%);
+  width: 470px;
+  height: 440px;
+  z-index: 11;
+}
+
+
 #sPonge{
   position: absolute;
   left: 35%;
-  top: 40%;
+  top: 20%;
   transform: translateX(-35%), translateY(-40%);
-  width: 490px;
-  height: 490px;
+  width: 400px;
+  height: 400px;
   z-index: 11;
 }
 
@@ -139,7 +155,7 @@ canvas {
 
 #brick{
   position: absolute;
-  bottom: -160px;
+  bottom: 390px;
   right: -50px;
   width: 200px;
   height: 200px;
@@ -148,8 +164,8 @@ canvas {
 
 #fLuid{
   position: absolute;
-  bottom: -50px;
-  right: -125px;
+  bottom: 500px;
+  right: -105px;
   width: 350px;
   height: 250px;
   z-index: 12;
@@ -164,6 +180,7 @@ canvas {
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
+  background-color: #dee1eb;
 }
 .sectionIIContents {
   width: 1200px;
