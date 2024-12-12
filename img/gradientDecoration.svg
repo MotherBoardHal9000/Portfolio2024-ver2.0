@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 475 632">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #a7bde8;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #748cb7;
+        stroke-linejoin: round;
+        stroke-width: 49.93px;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st3 {
+        fill: #ffd2d2;
+      }
+
+      .st4 {
+        fill: #feb46e;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="st1" x1="305.42" y1="361.68" x2="202.71" y2="464.39"/>
+    <line class="st1" x1="202.71" y1="361.68" x2="305.42" y2="464.39"/>
+  </g>
+  <g>
+    <circle class="st2" cx="354.42" cy="123.13" r="121.5"/>
+    <circle class="st4" cx="354.42" cy="123.13" r="90.96"/>
+    <circle class="st2" cx="355.08" cy="123.79" r="61.08"/>
+    <circle class="st4" cx="355.75" cy="124.46" r="36.52"/>
+  </g>
+  <path class="st3" d="M35.89,448.25c0,.41-.03.81-.03,1.22,0,49.74,40.32,90.06,90.06,90.06,49.74,0,90.06-40.32,90.06-90.06,0-.41-.03-.81-.03-1.22H35.89Z"/>
+  <path class="st3" d="M35.89,540.25c0,.41-.03.81-.03,1.22,0,49.74,40.32,90.06,90.06,90.06,49.74,0,90.06-40.32,90.06-90.06,0-.41-.03-.81-.03-1.22H35.89Z"/>
+  <g>
+    <g>
+      <rect class="st0" x="107.97" y="125.25" width="36" height="36" transform="translate(-17.27 269.22) rotate(-90)"/>
+      <rect class="st0" x="143.97" y="89.25" width="36" height="36" transform="translate(54.73 269.22) rotate(-90)"/>
+      <rect class="st0" x="143.97" y="161.25" width="36" height="36" transform="translate(-17.27 341.22) rotate(-90)"/>
+      <rect class="st0" x="35.97" y="125.25" width="36" height="36" transform="translate(-89.27 197.22) rotate(-90)"/>
+      <rect class="st0" x="35.97" y="197.25" width="36" height="36" transform="translate(-161.27 269.22) rotate(-90)"/>
+      <rect class="st0" x="71.97" y="89.25" width="36" height="36" transform="translate(-17.27 197.22) rotate(-90)"/>
+      <rect class="st0" x="71.97" y="161.25" width="36" height="36" transform="translate(-89.27 269.22) rotate(-90)"/>
+      <rect class="st0" x="179.97" y="125.25" width="36" height="36" transform="translate(54.73 341.22) rotate(-90)"/>
+      <rect class="st0" x="215.97" y="89.25" width="36" height="36" transform="translate(126.73 341.22) rotate(-90)"/>
+      <rect class="st0" x="215.97" y="161.25" width="36" height="36" transform="translate(54.73 413.22) rotate(-90)"/>
+      <rect class="st0" x="107.97" y="197.25" width="36" height="36" transform="translate(-89.27 341.22) rotate(-90)"/>
+      <rect class="st0" x="143.97" y="233.25" width="36" height="36" transform="translate(-89.27 413.22) rotate(-90)"/>
+      <rect class="st0" x="71.97" y="233.25" width="36" height="36" transform="translate(-161.27 341.22) rotate(-90)"/>
+      <rect class="st0" x="179.97" y="197.25" width="36" height="36" transform="translate(-17.27 413.22) rotate(-90)"/>
+      <rect class="st0" x="215.97" y="233.25" width="36" height="36" transform="translate(-17.27 485.22) rotate(-90)"/>
+      <rect class="st0" x="251.97" y="125.25" width="36" height="36" transform="translate(126.73 413.22) rotate(-90)"/>
+      <rect class="st0" x="251.97" y="197.25" width="36" height="36" transform="translate(54.73 485.22) rotate(-90)"/>
+    </g>
+    <g>
+      <rect class="st0" x="71.97" y="305.25" width="36" height="36" transform="translate(-233.27 413.22) rotate(-90)"/>
+      <rect class="st0" x="107.97" y="269.25" width="36" height="36" transform="translate(-161.27 413.22) rotate(-90)"/>
+      <rect class="st0" x="107.97" y="341.25" width="36" height="36" transform="translate(-233.27 485.22) rotate(-90)"/>
+      <rect class="st0" x="-.03" y="305.25" width="36" height="36" transform="translate(-305.27 341.22) rotate(-90)"/>
+      <rect class="st0" x="-.03" y="377.25" width="36" height="36" transform="translate(-377.27 413.22) rotate(-90)"/>
+      <rect class="st0" x="35.97" y="269.25" width="36" height="36" transform="translate(-233.27 341.22) rotate(-90)"/>
+      <rect class="st0" x="35.97" y="341.25" width="36" height="36" transform="translate(-305.27 413.22) rotate(-90)"/>
+      <rect class="st0" x="143.97" y="305.25" width="36" height="36" transform="translate(-161.27 485.22) rotate(-90)"/>
+      <rect class="st0" x="179.97" y="269.25" width="36" height="36" transform="translate(-89.27 485.22) rotate(-90)"/>
+      <rect class="st0" x="179.97" y="341.25" width="36" height="36" transform="translate(-161.27 557.22) rotate(-90)"/>
+      <rect class="st0" x="71.97" y="377.25" width="36" height="36" transform="translate(-305.27 485.22) rotate(-90)"/>
+      <rect class="st0" x="107.97" y="413.25" width="36" height="36" transform="translate(-305.27 557.22) rotate(-90)"/>
+      <rect class="st0" x="35.97" y="413.25" width="36" height="36" transform="translate(-377.27 485.22) rotate(-90)"/>
+      <rect class="st0" x="143.97" y="377.25" width="36" height="36" transform="translate(-233.27 557.22) rotate(-90)"/>
+      <rect class="st0" x="179.97" y="413.25" width="36" height="36" transform="translate(-233.27 629.22) rotate(-90)"/>
+      <rect class="st0" x="215.97" y="305.25" width="36" height="36" transform="translate(-89.27 557.22) rotate(-90)"/>
+      <rect class="st0" x="215.97" y="377.25" width="36" height="36" transform="translate(-161.27 629.22) rotate(-90)"/>
+    </g>
+  </g>
+</svg>
