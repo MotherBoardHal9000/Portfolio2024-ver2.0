@@ -166,6 +166,14 @@ canvas {
   margin: 0 auto;
 }
 
+#coins{
+  width: 160px;
+  height: 160px;
+position: absolute;
+right: 120px;
+top: -150px;
+}
+
 
 
 #Torus{

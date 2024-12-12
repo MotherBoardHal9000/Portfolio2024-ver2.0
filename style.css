@@ -31,7 +31,6 @@ canvas {
   transform: translateX(-50%);
   background-repeat: no-repeat;
   background-size: contain;
-  box-shadow: 10px 10px 20px 0px rgb(236, 236, 236);
   transition: all 1s;
   z-index: 2;
 }
@@ -173,6 +172,18 @@ canvas {
 
 }
 
+
+#gradientDecoration{
+  position: absolute;
+  width: 410px;
+  height: 515px;
+  bottom: 20px;
+  right: 40px;
+
+}
+
+
+
 /*sectionII*/
 .sectionII {
   width: 100vw;
@@ -211,6 +222,17 @@ canvas {
 
 
 
+#coins{
+  width: 160px;
+  height: 160px;
+position: absolute;
+right: 120px;
+top: -150px;
+}
+
+
+
+
 #square{
   width: 60px;
   height: 60px;
@@ -241,7 +263,7 @@ margin-top: 97px;
 .introDuce{
   width: 100%;
   height: 140px;
-  border-bottom:5px solid black ;
+  border-bottom:7px solid rgb(147, 147, 147) ;
 }
 
 
