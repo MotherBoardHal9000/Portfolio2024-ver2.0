@@ -12,12 +12,12 @@ let piPe = document.getElementById("piPe");
 
 window.addEventListener("scroll",function(addEventListener){
     let value = window.scrollY;
-    piPe.style.transform = `translateY(${value * 0.43}px)`
-    aBstract.style.transform = `translateY(${value * 0.40}px)`
+    piPe.style.transform = `translateY(${value * 0.33}px)`
+    aBstract.style.transform = `translateY(${value * 0.30}px)`
     popIt.style.transform=`translateY(${value * 0.30}px)`
-    sPonge.style.transform = `translateY(${value * 0.20}px)`
+    sPonge.style.transform = `translateY(${value * 0.10}px)`
     Brick.style.transform = `translateY(${value * 0.10}px)`
-    Fluid.style.transform = `translateY(${value * 0.20}px)`
+    Fluid.style.transform = `translateY(${value * 0.15}px)`
     this.window.requestAnimationFrame
     console.log("scroll");
     

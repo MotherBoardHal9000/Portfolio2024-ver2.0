@@ -143,11 +143,11 @@ canvas {
 
 #sPonge{
   position: absolute;
-  left: 35%;
-  top: 20%;
-  transform: translateX(-35%), translateY(-40%);
-  width: 400px;
-  height: 400px;
+  left: 28%;
+  top: 25%;
+  transform: translateX(-28%), translateY(-40%);
+  width: 360px;
+  height: 360px;
   z-index: 11;
 }
 
@@ -280,12 +280,22 @@ margin-top: 97px;
 font-weight: 700;
 padding-bottom: 30px;}
 
-
+/*section03*/
 .sectionIII{
   width: 100vw;
   height: 700px;
   position: relative;
 }
+
+
+.sectionIIIContentsColor{
+width:50vw;
+height: 700px;
+float: right;
+background-color: #6be8a4;
+}
+
+
 
 
 .sectionIV{
@@ -294,12 +304,53 @@ padding-bottom: 30px;}
     position: relative;
 }
 
-.sectionV{
 
+.sectionIVContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #ffbbba;
+  float: left;
+}
+/*sectionV*/
+.sectionV{
     width: 100vw;
     height: 700px;
     position: relative;
-  
-  
-  
+}
+
+.sectionVContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #feac00;
+  float: right;
+}
+
+/*sectionVI*/
+.sectionVI{
+  width: 100vw;
+  height: 700px;
+  position: relative;
+}
+
+
+.sectionVIContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #70a2e1;
+  float: left;
+}
+
+/*sectionVII*/
+.sectionVII{
+  width: 100vw;
+  height: 700px;
+  position: relative;
+}
+
+
+.sectionVIIContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #b1191c;
+  float: right;
 }

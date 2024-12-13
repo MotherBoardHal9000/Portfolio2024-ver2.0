@@ -18,6 +18,7 @@ canvas {
 
 @media only screen and (min-width: 1280px){
 /*header*/
+/*header*/
 .header {
   width: 100%;
   height: 80px;
@@ -152,6 +153,27 @@ canvas {
 
 }
 
+
+#gradientDecoration{
+  position: absolute;
+  width: 410px;
+  height: 515px;
+  bottom: 20px;
+  right: 40px;
+
+}
+
+
+#mainSquare{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom:350px;
+  right: 230px;
+  z-index: 10;
+}
+
+
 /*sectionII*/
 .sectionII {
   width: 100vw;
@@ -165,15 +187,6 @@ canvas {
   height: 769px;
   margin: 0 auto;
 }
-
-#coins{
-  width: 160px;
-  height: 160px;
-position: absolute;
-right: 120px;
-top: -150px;
-}
-
 
 
 #Torus{
@@ -196,6 +209,17 @@ top: -150px;
   float: left;
   position: absolute;
 }
+
+
+
+#coins{
+  width: 160px;
+  height: 160px;
+position: absolute;
+right: 120px;
+top: -150px;
+}
+
 
 
 
@@ -229,7 +253,7 @@ margin-top: 97px;
 .introDuce{
   width: 100%;
   height: 140px;
-  border-bottom:5px solid black ;
+  border-bottom:7px solid rgb(147, 147, 147) ;
 }
 
 
@@ -237,12 +261,22 @@ margin-top: 97px;
 font-weight: 700;
 padding-bottom: 30px;}
 
-
+/*section03*/
 .sectionIII{
   width: 100vw;
   height: 700px;
   position: relative;
 }
+
+
+.sectionIIIContentsColor{
+width:50vw;
+height: 700px;
+float: right;
+background-color: #6be8a4;
+}
+
+
 
 
 .sectionIV{
@@ -251,13 +285,54 @@ padding-bottom: 30px;}
     position: relative;
 }
 
-.sectionV{
 
+.sectionIVContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #ffbbba;
+  float: left;
+}
+/*sectionV*/
+.sectionV{
     width: 100vw;
     height: 700px;
     position: relative;
-  
-  
-  
+}
+
+.sectionVContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #feac00;
+  float: right;
+}
+
+/*sectionVI*/
+.sectionVI{
+  width: 100vw;
+  height: 700px;
+  position: relative;
+}
+
+
+.sectionVIContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #70a2e1;
+  float: left;
+}
+
+/*sectionVII*/
+.sectionVII{
+  width: 100vw;
+  height: 700px;
+  position: relative;
+}
+
+
+.sectionVIIContentsColor{
+  width: 50vw;
+  height: 100%;
+  background-color: #b1191c;
+  float: right;
 }
 }
