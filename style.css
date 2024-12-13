@@ -183,6 +183,15 @@ canvas {
 }
 
 
+#mainSquare{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom:350px;
+  right: 230px;
+  z-index: 10;
+}
+
 
 /*sectionII*/
 .sectionII {
