@@ -9,7 +9,7 @@
   font-style: normal;
   scroll-behavior: smooth;
   position: relative;
-  transition: all 0.7s;
+  transition: all 1s;
 }
 
 a {
@@ -35,8 +35,6 @@ canvas {
   z-index: 2;
 }
 
-
-
 /*header*/
 .header {
   width: 100%;
@@ -54,7 +52,6 @@ canvas {
   color: #000000;
   position: fixed;
   z-index: 9000;
- 
 }
 
 .headerContents {
@@ -64,12 +61,10 @@ canvas {
   position: relative;
 }
 
-
 .headerContents a {
   float: right;
   margin: 35px;
 }
-
 
 .headerContents ul {
   width: 400px;
@@ -95,23 +90,19 @@ canvas {
   max-height: 100vh;
   margin: 0 auto;
   transition: all 0.8s;
-
 }
 
-
-.sectionIContents h2{
+.sectionIContents h2 {
   font-size: 8rem;
   font-weight: 800;
   position: absolute;
   left: 50px;
   z-index: 10;
   line-height: 140px;
-  bottom: 6.5%;
+  bottom: 8.5%;
 }
 
-
-
-#piPe{
+#piPe {
   position: absolute;
   left: 450px;
   width: 250px;
@@ -119,7 +110,7 @@ canvas {
   z-index: 1;
 }
 
-#aBstract{
+#aBstract {
   position: absolute;
   left: -100px;
   top: 30px;
@@ -128,9 +119,7 @@ canvas {
   z-index: 11;
 }
 
-
-
-#popIt{
+#popIt {
   position: absolute;
   right: -15%;
   top: -5%;
@@ -140,8 +129,7 @@ canvas {
   z-index: 11;
 }
 
-
-#sPonge{
+#sPonge {
   position: absolute;
   left: 28%;
   top: 25%;
@@ -151,9 +139,7 @@ canvas {
   z-index: 11;
 }
 
-
-
-#brick{
+#brick {
   position: absolute;
   bottom: 390px;
   right: -50px;
@@ -162,97 +148,112 @@ canvas {
   z-index: 11;
 }
 
-#fLuid{
+#fLuid {
   position: absolute;
   bottom: 500px;
   right: -105px;
   width: 350px;
   height: 250px;
   z-index: 12;
-
 }
 
-
-#gradientDecoration{
+#gradientDecoration {
   position: absolute;
   width: 410px;
   height: 515px;
   bottom: 20px;
   right: 40px;
-
 }
 
-
-#mainSquare{
+#mainSquare {
   position: absolute;
   width: 180px;
   height: 180px;
-  bottom:350px;
+  bottom: 350px;
   right: 230px;
   z-index: 10;
 }
 
-
 /*sectionII*/
+
 .sectionII {
   width: 100vw;
   height: 769px;
-  margin: 0 auto;
   position: relative;
-  background-color: #dee1eb;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-position: center;
+  background-size: contain;
+  background-color: #f9f9f9;
 }
+
 .sectionIIContents {
   width: 1200px;
   height: 769px;
   margin: 0 auto;
 }
 
-
-#Torus{
-  width: 170px;
-  height: 170px;
+.tab {
+  width: 400px;
+  height: 70px;
   position: absolute;
-  left: -70px;
-  top: 30px;
+  top: -70px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-position: center;
+  background-size: contain;
+  background-color: #f9f9f9;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
-
-
-
-.profileBox{
+.profileBox {
   width: 600px;
   height: 550px;
-  background-color: #ffffff;
-  margin-top:102px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(181, 181, 181, 0.18);
+  background-position: center;
+  background-size: contain;
+  box-shadow: 25px;
+  margin-top: 102px;
   border-radius: 25px;
   float: left;
   position: absolute;
 }
 
-
-
-#coins{
+#coins {
   width: 160px;
   height: 160px;
-position: absolute;
-right: 120px;
-top: -150px;
+  position: absolute;
+  right: 120px;
+  top: -150px;
 }
 
-
-
-
-#square{
+#square {
   width: 60px;
   height: 60px;
-position: absolute;
-right: 520px;
-margin-top: 97px;
-  
+  position: absolute;
+  right: 520px;
+  margin-top: 97px;
 }
-
-
-
 
 .profileBox img {
   width: 520px;
@@ -261,64 +262,82 @@ margin-top: 97px;
   margin-left: 40px;
 }
 
-
-.aboutMe{
+.aboutMe {
   width: 500px;
   height: 550px;
   margin-top: 82px;
   float: right;
 }
 
-.introDuce{
+.introDuce {
   width: 100%;
   height: 140px;
-  border-bottom:7px solid rgb(147, 147, 147) ;
+  border-bottom: 2px solid rgb(53, 53, 53);
 }
 
+.introDuce h2 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  padding-bottom: 30px;
+  color: #757575;
+}
+/*sectionII.2*/
+.sectionII2 {
+  width: 100vw;
+  height: 700px;
+  position: relative;
+  background-color: #ffe086;
+}
 
-.introDuce h2{font-size: 5.5rem;
-font-weight: 700;
-padding-bottom: 30px;}
+.sectionII2Contents {
+  width: 1200px;
+  height: 769px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sectionII2Contents .tab {
+  width: 400px;
+  height: 70px;
+  position: absolute;
+  top: -70px;
+  background-color: #ffe086;
+}
 
 /*section03*/
-.sectionIII{
+.sectionIII {
   width: 100vw;
   height: 700px;
   position: relative;
 }
 
-
-.sectionIIIContentsColor{
-width:50vw;
-height: 700px;
-float: right;
-background-color: #6be8a4;
+.sectionIIIContentsColor {
+  width: 50vw;
+  height: 700px;
+  float: right;
+  background-color: #6be8a4;
 }
 
-
-
-
-.sectionIV{
-    width: 100vw;
-    height: 700px;
-    position: relative;
+.sectionIV {
+  width: 100vw;
+  height: 700px;
+  position: relative;
 }
 
-
-.sectionIVContentsColor{
+.sectionIVContentsColor {
   width: 50vw;
   height: 100%;
   background-color: #ffbbba;
   float: left;
 }
 /*sectionV*/
-.sectionV{
-    width: 100vw;
-    height: 700px;
-    position: relative;
+.sectionV {
+  width: 100vw;
+  height: 700px;
+  position: relative;
 }
 
-.sectionVContentsColor{
+.sectionVContentsColor {
   width: 50vw;
   height: 100%;
   background-color: #feac00;
@@ -326,14 +345,13 @@ background-color: #6be8a4;
 }
 
 /*sectionVI*/
-.sectionVI{
+.sectionVI {
   width: 100vw;
   height: 700px;
   position: relative;
 }
 
-
-.sectionVIContentsColor{
+.sectionVIContentsColor {
   width: 50vw;
   height: 100%;
   background-color: #70a2e1;
@@ -341,14 +359,13 @@ background-color: #6be8a4;
 }
 
 /*sectionVII*/
-.sectionVII{
+.sectionVII {
   width: 100vw;
   height: 700px;
   position: relative;
 }
 
-
-.sectionVIIContentsColor{
+.sectionVIIContentsColor {
   width: 50vw;
   height: 100%;
   background-color: #b1191c;
